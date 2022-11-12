@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<title>Header</title>
+</head>
+
+<body>
+	<header>
+		<div class="heder_centrator">
+			<div class="top_head_line flex">
+				<button class="mobile_menu">
+					<span></span><span></span><span></span>
+				</button>
+				<div class="flex">
+					<img src="images/logo.png" height="24px">
+					<div>
+						<div class="flex city_block">
+							<div class="city_img"><img src="images/city.png" width="14px"></div>
+							<span>Москва, Нижний Новгород</span>
+						</div>
+						<div class="big_popup sity_drop_window hidden">
+							<div class="serch_fild">
+								<input
+									placeholder="Регион, город, населенный пункт">
+								</input>
+								<img src="images/close.png" class="hidden" width="14px">
+							</div>
+							<div class="cities_tablo hidden"></div>
+							<div class="ripple"><div></div><div></div></div>
+							<ul></ul>
+							<a>сохранить</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="serch_fild">
+					<div class="big_popup serch_drop_window hidden">
+						<ul></ul>
+					</div>
+					<img src="images/Union.png" width="17px">
+					<input type="text"
+						placeholder="Учебное заведение, специальность или профессия"
+					></input>
+					<img src="images/close.png" class="hidden" width="14px">
+				</div>
+
+				<div class="right_profile_data">
+					<div><img src="images/Heart.png" width="15px">1</div>
+					<div class="flex">Екатерина<img src="images/avatar.png" width="32px"></div>
+				</div>
+			</div>
+
+			<nav>
+				<div class="big_nav">
+					<div class="box_arrow_l">
+						<img src="images/ArrowL.png"
+							width="6px"
+							height="12px"
+						>
+					</div>
+					<ul>
+						<li><a>Вузы</a></li>
+						<li><a>Колледжи</a></li>
+						<li><a>Техникумы</a></li>
+						<li><a>Училища</a></li>
+						<li>
+							<a>Специальности</a>
+							<div class="little_drop">
+								<div>
+									<ul>
+										<li><a>Высшее</a></li>
+										<li><a>Среднее</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a>Профессии</a></li>
+						<li><a>Отзывы</a></li>
+						<li><a>Учебным заведениям</a></li>
+						<li><a>Тест на профориентацию</a></li>
+					</ul>
+					<div class="box_arrow_r active">
+						<img src="images/ArrowR.png"
+							width="6px"
+							height="12px"
+						>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	
+	<div class="page"></div>
+	
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
